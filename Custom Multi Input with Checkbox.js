@@ -8,7 +8,7 @@ if( event.source.forReal && event.source.stampName == "#CHANGEME"){
         },
         commit: function (dialog) {
             var results = dialog.store();
-            // Save the inputs to variables
+            // Save the inputs to variables by id
             this.data1 = results["txt1"];
             this.data2 = results["txt2"];
             this.data3 = results["txt3"];
@@ -35,7 +35,8 @@ if( event.source.forReal && event.source.stampName == "#CHANGEME"){
     // Run the dialog
     if ("ok" == app.execDialog(myDialog)) {
         console.println("Inputs: " + myDialog.data1 + "," + myDialog.data2 + "," + myDialog.data3 + "," + myDialog.data4 + "." );
-        // Write the results to the form fields on the stamp        
+        // Write the results to the form fields on the stamp   
+        // getField refers to the name of the components on the form, they may be different on your stamp/form
         this.getField("textfield_1").value = myDialog.data1;
         this.getField("textfield_2").value = myDialog.data2;
         this.getField("textfield_3").value = myDialog.data3;
