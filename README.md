@@ -12,4 +12,4 @@ The magic is in the event.source.forReal && event.source.stampName == "#CHANGEME
 Foxit code seems to copy/paste over fairly well, but we decided to rewrite the javascript to be a little cleaner
 
 ## Resources: 
-Adobe Reference [Adobe JavaScript API]([https://pages.github.com/](https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/JS_API_AcroJS.html#)
+Adobe Reference [Adobe JavaScript API](https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/JS_API_AcroJS.html) for more information
