@@ -4,6 +4,9 @@
 if( event.source.forReal && event.source.stampName == "#FireTest"){
     event.value = event.source.stampName;
     console.println("Event Stamp forReal: " + event.source.stampName);
+    //uncomment to get a list of all stampNames in the file
+    //var cMsg = this.templates;
+    //console.println("Stamp List: " + cMsg);
 } else{
     console.println("Event Stamp Prefire: " + event.source.stampName);
 }
