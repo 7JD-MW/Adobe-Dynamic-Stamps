@@ -11,7 +11,7 @@ The magic is in the **event.source.forReal && event.source.stampName == "#CHANGE
 
 Foxit code seems to copy/paste over fairly well, but we decided to rewrite the javascript to be a little cleaner
 
-You may need to enable the javascript debugger in Mneu -> Preferences -> JavaScript. 
+You may need to enable the javascript debugger in Menu -> Preferences -> JavaScript. Control+Enter will run scripts in the debugger console view. 
 
 ## Resources: 
 Adobe Reference [Adobe JavaScript API](https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/JS_API_AcroJS.html) for more information
