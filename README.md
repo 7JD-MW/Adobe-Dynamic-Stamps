@@ -15,3 +15,4 @@ You may need to enable the javascript debugger in Menu -> Preferences -> JavaScr
 
 ## Resources: 
 Adobe Reference [Adobe JavaScript API](https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/JS_API_AcroJS.html) for more information
+Adobe Dialog Reference [Adobe Dialog JavaScript API](https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/JS_API_AcroJS.html#execdialog)
